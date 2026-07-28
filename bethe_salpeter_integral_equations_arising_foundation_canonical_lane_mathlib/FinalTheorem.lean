@@ -1,0 +1,9 @@
+import bethe_salpeter_integral_equations_arising_foundation_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace bethe_salpeter_integral_equations_arising_foundation_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end bethe_salpeter_integral_equations_arising_foundation_canonical_lane_mathlib
+end HautevilleHouse
